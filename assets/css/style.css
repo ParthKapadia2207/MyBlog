@@ -4,9 +4,8 @@ body {
     margin: 0;
     padding: 0;
 }
-.container {
-    max-width: 600px;
-    margin: 50px auto;
+.containerform{
+    margin: 50% 100px;
     background-color: #fff;
     padding: 20px;
     border-radius: 8px;
@@ -16,7 +15,7 @@ body {
     margin-bottom: 20px;
 }
 label {
-    display: block;
+    display:inline-block;
     font-weight: bold;
     margin-bottom: 5px;
 }
@@ -28,18 +27,18 @@ textarea {
     border: 1px solid #ccc;
     border-radius: 5px;
 }
-textarea {
-    height: 150px;
+
+.question{
+    text-align: center;
 }
-input[type="submit"] {
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
-    font-size: 16px;
+
+#submit{
+    flex-direction: column;
+   justify-content: center;
+    
 }
-input[type="submit"]:hover {
-    background-color: #0056b3;
+
+#theme{
+  
+    align-items:;
 }
